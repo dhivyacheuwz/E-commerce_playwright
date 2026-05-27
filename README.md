@@ -19,6 +19,7 @@ It is designed for real-world QA/SDET usage with maintainable structure, reusabl
   
 ---
 ## 📂 Project Structure
+```
 playwright-framework/
 │
 ├── tests/                          # All test specifications
@@ -54,20 +55,26 @@ playwright-framework/
 ├── playwright.config.js            # Playwright configuration file
 ├── package.json                    # Dependencies & scripts
 └── README.md                       # Project documentation
+```
 -----------------
 ## ⚙️ Installation
-### 
+
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
+```
 2️⃣ Install Dependencies
+```bash
 npm install
-
+```
 3️⃣ Install Playwright Browsers
+```
 npx playwright install
+```
 ------------------
 ▶️ Running Tests
+```bash
 *Run all tests
 *npx playwright test
 *Run tests in headed mode
@@ -76,31 +83,40 @@ npx playwright install
 *npx playwright test tests/login.spec.js
 *Run with UI mode
 *npx playwright test --ui
-
+```
 ------------------
 📊 Test Reports
-
+```
 Generate HTML report:npx playwright show-report
+```
 --------------------
 🧪 Example Test Flow
-
+```
 Login → Search Product → Add to Cart → Checkout → Logout
+```
 -----------------
 📌 Best Practices Followed
-
-1.POM Design Pattern
-2.Reusable utilities
-3.Proper folder structure
-4.Clean test separation
-5.Stable locators strategy
+```
+*POM Design Pattern
+*Reusable utilities
+*Proper folder structure
+*Clean test separation
+*Stable locators strategy
+```
 --------------
 🚀 Future Enhancements
-
-1.Cucumber BDD Integration
-2.API Testing Layer (Axios/Playwright API)
-3.Docker Execution
+```
+1. Cucumber BDD Integration
+2. API Testing Layer 
+3. Docker Execution
 4.Allure Reporting
+```
+---------------
+## 👩‍💻 Author
+**Dhivya Bharathi.M**
 
-👨‍💻 Author
-Dhivya Bharathi M
-SDET | Automation Engineer
+QA Automation Engineer | Selenium |Playwright| API Testing
+-----------------
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
