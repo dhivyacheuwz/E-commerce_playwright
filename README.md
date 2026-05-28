@@ -13,6 +13,8 @@ It is designed for real-world QA/SDET usage with maintainable structure, reusabl
 - 🔄 Data-Driven Testing
 - ⚙️ Fixtures & Hooks
 - 📊 HTML Test Reports
+-   Allure reports
+-   Logger Utis
 - 🔁 Retry Mechanism for Flaky Tests
 - 🌐 Cross-Browser Testing (Chromium, Firefox, WebKit)
 - 🚀 CI/CD Ready (Jenkins/GitHub Actions)
@@ -109,7 +111,6 @@ Login → Search Product → Add to Cart → Checkout → Logout
 1. Cucumber BDD Integration
 2. API Testing Layer 
 3. Docker Execution
-4.Allure Reporting
 ```
 ---------------
 ## 👩‍💻 Author
