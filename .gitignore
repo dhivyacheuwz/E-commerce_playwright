@@ -5,4 +5,6 @@ allure-results/
 allure-report/
 test-results/
 screenshots/
-.env
+.env/
+reports/
+.vscode
