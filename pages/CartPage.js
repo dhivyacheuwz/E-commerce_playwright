@@ -1,5 +1,6 @@
 const { expect } = require('@playwright/test');
 const { Cartlocators } = require('../locators/Cartlocators')
+const SafeActions = require('../utils/SafeActions');
 
 class CartPage {
 
@@ -12,9 +13,9 @@ class CartPage {
     }
 
     async Cart() {
-        await this.shopcart.click();
+        await SafeActions.safeClick(this.shopcart,'shoping cart');
         await this.terms.check();
-        await this.checkout.click();
+        await SafeActions.safeClick(this.checkout,'Checkout button');
     }
 }
 module.exports = { CartPage };

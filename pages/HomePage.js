@@ -1,6 +1,6 @@
 const { expect } = require('@playwright/test');
 const { homepageLocators } = require('../locators/HomePageLocators');
-
+const SafeActions = require('../utils/SafeActions');
 class HomePage {
     constructor(page) {
         this.page = page;
@@ -14,11 +14,9 @@ class HomePage {
 
     async addtocart(search) {
 
-        await this.search.fill(search);
-        await expect(this.sbutton).toBeVisible();
-        await expect(this.sbutton).toBeEnabled();
-        await this.sbutton.click();
-        await this.a2cart.click();
+        await SafeActions.safeFill(this.search,search,'Search box');
+        await SafeActions.safeClick(this.sbutton,'Search button');
+        await SafeActions.safeClick(this.a2cart,'Add to cart button');
         await expect(this.cartqty).toHaveCount(1);
 
     }

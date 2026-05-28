@@ -1,6 +1,7 @@
 
 const { expect } = require('@playwright/test');
 const { LoginLocators } = require('../locators/LoginLocators');
+const SafeActions = require('../utils/SafeActions');
 class LoginPage {
 
     constructor(page) {
@@ -39,32 +40,25 @@ class LoginPage {
     }
 
     async Register_User(name1, name2, email, password, confirmpass) {
-        await expect(this.RegisterUser).toBeVisible();
-        await expect(this.RegisterUser).toBeEnabled();
-        await this.RegisterUser.click();
+
+        await SafeActions.safeClick(this.RegisterUser, 'REGISTERUSER');
         await this.gender.check();
-        await this.firstname.fill(name1);
-        await this.lastname.fill(name2);
-        await this.email.fill(email);
-        await this.regpass.fill(password);
-        await this.confirm.fill(confirmpass);
-        await this.regis.click();
-
-
-
+        await SafeActions.safeFill(this.firstname, name1, 'firstname');
+        await SafeActions.safeFill(this.lastname, name2, 'Lastname');
+        await SafeActions.safeFill(this.email, email, 'Email');
+        await SafeActions.safeFill(this.regpass, password, 'Password');
+        await SafeActions.safeFill(this.confirm, confirmpass, 'Confirm password');
+        await SafeActions.safeClick(this.regis, 'Register Button');
 
 
     }
     async loginApplication(email, pass) {
-        await expect(this.sign).toBeVisible();
-        await expect(this.sign).toBeEnabled();
-        await this.sign.click();
-        await this.username.fill(email);
-        await this.password.fill(pass);
-        await expect(this.loginButton).toBeVisible();
-        await expect(this.loginButton).toBeEnabled();
-        await this.loginButton.click();
-        await expect(this.Home).toBeVisible();
+
+        await SafeActions.safeClick(this.sign, 'Sign in');
+        await SafeActions.safeFill(this.username, email, 'Email');
+        await SafeActions.safeFill(this.password, pass, 'Password');
+        await SafeActions.safeClick(this.loginButton, 'LoginButton');
+
 
     }
 

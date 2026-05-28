@@ -1,6 +1,7 @@
 const { expect } = require('@playwright/test');
 const { checkoutLocators } = require('../locators/CheckoutPageLocators.js');
 const { loginTestData } = require('../testdata/LoginTestData.js');
+const SafeActions = require('../utils/SafeActions');
 
 class Checkout {
     constructor(page) {
@@ -28,29 +29,22 @@ class Checkout {
 
     async checkout_fromcart(company, country, state, city, address1, address2, zip, Phone, Shipadd) {
         await this.shipavail.selectOption(Shipadd);
-        await this.company.fill(company);
+        await SafeActions.safeFill(this.company,company,'company name');
         await this.country.selectOption(country);
         await this.state.selectOption(state);
-        await this.city.fill(city);
-        await this.add1.fill(address1);
-        await this.add2.fill(address2);
-        await this.zip.fill(String(zip));
-        await this.phone.fill(String(Phone));
-
-        await this.continue_btn.click();
-        await expect(this.shippingcont).toBeEnabled();
-        await this.shippingcont.click();
-        await expect(this.ship_opt).toBeEnabled();
-        await this.ship_opt.click();
-        await this.contshipmethod.click();
-        await this.pay.click();
-        await expect(this.Paycont).toBeEnabled();
-        await this.Paycont.click();
-        await expect(this.Payinfo).toBeEnabled();
-        await this.Payinfo.click();
-        await expect(this.confirm).toBeVisible();
-        await expect(this.confirm).toBeEnabled();
-        await this.confirm.click();
+        await SafeActions.safeFill(this.city,city,'city');
+        await SafeActions.safeFill(this.add1,address1,'Address1');
+        await SafeActions.safeFill(this.add2,address2,'Address2');
+        await SafeActions.safeFill(this.zip,String(zip),'Zip/Postal code');
+        await SafeActions.safeFill(this.phone,String(Phone),'Phone number');
+        await SafeActions.safeClick(this.continue_btn,'Continue');
+        await SafeActions.safeClick(this.shippingcont,'Continue');
+        await SafeActions.safeClick(this.ship_opt,'COD');
+        await SafeActions.safeClick( this.contshipmethod,'Continue');
+        await SafeActions.safeClick( this.pay,'Pay');
+        await SafeActions.safeClick(this.Paycont,'contiune');
+        await SafeActions.safeClick(this.Payinfo,'info');
+        await SafeActions.safeClick(this.confirm,'confirm Button');
     }
 
 

@@ -5,7 +5,7 @@ require('../hooks/testhook');
 const { HomePage } = require('../pages/HomePage');
 const { CartPage } = require('../pages/CartPage');
 const { Checkout } = require('../pages/CheckoutPage')
-const { ExcelUtils } =require('../utils/excelutils');
+const { ExcelUtils } =require('../utils/ExcelUtils');
 
 
 const testData = ExcelUtils.getTestData(
@@ -29,7 +29,11 @@ test('Complete E2E Flow', async ({ mypage }) => {
 
     const checkout = new Checkout(mypage);
 
-    // Launch application
+    await test.step(
+        'End to End Flow',
+
+        async () => {
+
     await loginPage.loginApplication(
         testData[0].name,
         testData[0].password1
@@ -54,4 +58,6 @@ test('Complete E2E Flow', async ({ mypage }) => {
         testData[0].Shipadd,
 
     );
+
+})
 });

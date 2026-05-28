@@ -1,0 +1,510 @@
+2026-05-28 13:23:20 [INFO]: Clicked on REGISTERUSER
+2026-05-28 13:23:22 [INFO]: Clicked on Sign in
+2026-05-28 13:26:58 [INFO]: Clicked on Sign in
+2026-05-28 13:26:59 [INFO]: Clicked on element
+2026-05-28 13:28:05 [INFO]: Clicked on Link
+2026-05-28 13:28:05 [INFO]: Clicked on element
+2026-05-28 13:32:18 [INFO]: Clicked on REGISTERUSER
+2026-05-28 13:32:19 [INFO]: Clicked on Sign in
+2026-05-28 13:37:07 [INFO]: Clicked on Sign in
+2026-05-28 13:37:07 [INFO]: Clicked on REGISTERUSER
+2026-05-28 13:37:07 [INFO]: Entered value into Email
+2026-05-28 13:37:07 [INFO]: Entered value into Password
+2026-05-28 13:37:08 [INFO]: Entered value into firstname
+2026-05-28 13:37:08 [INFO]: Entered value into Lastname
+2026-05-28 13:37:08 [INFO]: Entered value into Email
+2026-05-28 13:37:08 [INFO]: Entered value into Password
+2026-05-28 13:37:09 [INFO]: Clicked on LoginButton
+2026-05-28 13:37:09 [INFO]: Entered value into Confirm password
+2026-05-28 13:37:11 [INFO]: Clicked on Register Button
+2026-05-28 14:01:16 [INFO]: Clicked on Sign in
+2026-05-28 14:01:16 [INFO]: Entered value into Email
+2026-05-28 14:01:16 [INFO]: Entered value into Password
+2026-05-28 14:01:18 [INFO]: Clicked on LoginButton
+2026-05-28 14:05:57 [INFO]: Clicked on REGISTERUSER
+2026-05-28 14:05:57 [INFO]: Clicked on Sign in
+2026-05-28 14:05:58 [INFO]: Entered value into firstname
+2026-05-28 14:05:58 [INFO]: Entered value into Lastname
+2026-05-28 14:05:58 [INFO]: Entered value into Email
+2026-05-28 14:05:58 [INFO]: Entered value into Email
+2026-05-28 14:05:58 [INFO]: Entered value into Password
+2026-05-28 14:05:58 [INFO]: Entered value into Password
+2026-05-28 14:05:58 [INFO]: Entered value into Confirm password
+2026-05-28 14:05:59 [INFO]: Clicked on Register Button
+2026-05-28 14:05:59 [INFO]: Clicked on LoginButton
+2026-05-28 14:35:01 [INFO]: Entered value into Search box
+2026-05-28 14:35:02 [INFO]: Clicked on Sign in
+2026-05-28 14:35:02 [INFO]: Entered value into Email
+2026-05-28 14:35:02 [INFO]: Entered value into Password
+2026-05-28 14:35:04 [INFO]: Clicked on Search button
+2026-05-28 14:35:04 [INFO]: Clicked on Add to cart button
+2026-05-28 14:35:04 [INFO]: Clicked on Sign in
+2026-05-28 14:35:05 [INFO]: Entered value into Email
+2026-05-28 14:35:05 [INFO]: Clicked on REGISTERUSER
+2026-05-28 14:35:06 [INFO]: Entered value into firstname
+2026-05-28 14:35:06 [INFO]: Entered value into Lastname
+2026-05-28 14:35:06 [INFO]: Entered value into Email
+2026-05-28 14:35:06 [INFO]: Entered value into Password
+2026-05-28 14:35:06 [INFO]: Entered value into Confirm password
+2026-05-28 14:35:06 [INFO]: Entered value into Password
+2026-05-28 14:35:07 [INFO]: Clicked on Register Button
+2026-05-28 14:35:08 [INFO]: Clicked on LoginButton
+2026-05-28 14:35:08 [INFO]: Entered value into Search box
+2026-05-28 14:35:10 [INFO]: Clicked on Search button
+2026-05-28 14:35:10 [INFO]: Clicked on Add to cart button
+2026-05-28 14:35:11 [INFO]: Clicked on LoginButton
+2026-05-28 14:35:12 [INFO]: Clicked on shoping cart
+2026-05-28 14:35:13 [INFO]: Clicked on Checkout button
+2026-05-28 14:35:14 [INFO]: Entered value into company name
+2026-05-28 14:35:14 [INFO]: Entered value into city
+2026-05-28 14:35:14 [INFO]: Entered value into Address1
+2026-05-28 14:35:14 [INFO]: Entered value into Address2
+2026-05-28 14:35:14 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:35:14 [INFO]: Entered value into Phone number
+2026-05-28 14:35:15 [INFO]: Clicked on Continue
+2026-05-28 14:35:39 [INFO]: Entered value into Search box
+2026-05-28 14:35:43 [INFO]: Clicked on Search button
+2026-05-28 14:35:45 [INFO]: Clicked on Add to cart button
+2026-05-28 14:35:48 [INFO]: Clicked on Sign in
+2026-05-28 14:35:48 [INFO]: Clicked on REGISTERUSER
+2026-05-28 14:35:48 [INFO]: Entered value into Email
+2026-05-28 14:35:49 [INFO]: Entered value into Password
+2026-05-28 14:35:50 [INFO]: Entered value into firstname
+2026-05-28 14:35:50 [INFO]: Entered value into Lastname
+2026-05-28 14:35:51 [INFO]: Entered value into Email
+2026-05-28 14:35:51 [INFO]: Entered value into Password
+2026-05-28 14:35:51 [INFO]: Entered value into Confirm password
+2026-05-28 14:35:52 [INFO]: Clicked on LoginButton
+2026-05-28 14:35:53 [INFO]: Clicked on Register Button
+2026-05-28 14:35:55 [ERROR]: Failed to click on Continue
+2026-05-28 14:35:55 [ERROR]: locator.click: Test timeout of 60000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Continue' })[22m
+[2m    - locator resolved to <input type="button" title="Continue" value="Continue" disabled="disabled" onclick="Billing.save()" class="button-1 new-address-next-step-button"/>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not enabled[22m
+[2m  - retrying click action[22m
+[2m    - waiting 100ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting 100ms[22m
+[2m    62 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+2026-05-28 14:35:59 [INFO]: Clicked on Sign in
+2026-05-28 14:36:00 [INFO]: Entered value into Email
+2026-05-28 14:36:00 [INFO]: Entered value into Password
+2026-05-28 14:36:02 [INFO]: Clicked on LoginButton
+2026-05-28 14:36:03 [INFO]: Entered value into Search box
+2026-05-28 14:36:04 [INFO]: Clicked on Search button
+2026-05-28 14:36:05 [INFO]: Clicked on Add to cart button
+2026-05-28 14:36:07 [INFO]: Clicked on shoping cart
+2026-05-28 14:36:12 [INFO]: Clicked on Checkout button
+2026-05-28 14:36:13 [INFO]: Entered value into company name
+2026-05-28 14:36:14 [INFO]: Entered value into city
+2026-05-28 14:36:14 [INFO]: Entered value into Address1
+2026-05-28 14:36:14 [INFO]: Entered value into Address2
+2026-05-28 14:36:14 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:36:15 [INFO]: Entered value into Phone number
+2026-05-28 14:36:15 [INFO]: Clicked on Continue
+2026-05-28 14:36:19 [INFO]: Entered value into Search box
+2026-05-28 14:36:24 [INFO]: Clicked on Sign in
+2026-05-28 14:36:24 [INFO]: Clicked on Search button
+2026-05-28 14:36:25 [INFO]: Entered value into Email
+2026-05-28 14:36:25 [INFO]: Entered value into Password
+2026-05-28 14:36:25 [INFO]: Clicked on REGISTERUSER
+2026-05-28 14:36:26 [INFO]: Clicked on Add to cart button
+2026-05-28 14:36:27 [INFO]: Entered value into firstname
+2026-05-28 14:36:27 [INFO]: Entered value into Lastname
+2026-05-28 14:36:28 [INFO]: Entered value into Email
+2026-05-28 14:36:28 [INFO]: Entered value into Password
+2026-05-28 14:36:28 [INFO]: Clicked on LoginButton
+2026-05-28 14:36:28 [INFO]: Entered value into Confirm password
+2026-05-28 14:36:31 [INFO]: Clicked on Register Button
+2026-05-28 14:36:37 [INFO]: Clicked on Sign in
+2026-05-28 14:36:38 [INFO]: Entered value into Email
+2026-05-28 14:36:38 [INFO]: Entered value into Password
+2026-05-28 14:36:39 [INFO]: Clicked on LoginButton
+2026-05-28 14:36:40 [INFO]: Entered value into Search box
+2026-05-28 14:36:41 [INFO]: Clicked on Search button
+2026-05-28 14:36:43 [INFO]: Clicked on Add to cart button
+2026-05-28 14:36:44 [INFO]: Clicked on shoping cart
+2026-05-28 14:36:48 [INFO]: Clicked on Checkout button
+2026-05-28 14:36:49 [ERROR]: Failed to click on Continue
+2026-05-28 14:36:49 [ERROR]: locator.click: Test timeout of 60000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Continue' })[22m
+[2m    - locator resolved to <input type="button" title="Continue" value="Continue" disabled="disabled" onclick="Billing.save()" class="button-1 new-address-next-step-button"/>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    54 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+2026-05-28 14:36:50 [INFO]: Entered value into company name
+2026-05-28 14:36:51 [INFO]: Entered value into city
+2026-05-28 14:36:51 [INFO]: Entered value into Address1
+2026-05-28 14:36:51 [INFO]: Entered value into Address2
+2026-05-28 14:36:51 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:36:51 [INFO]: Entered value into Phone number
+2026-05-28 14:36:52 [INFO]: Clicked on Continue
+2026-05-28 14:37:31 [ERROR]: Failed to click on Continue
+2026-05-28 14:37:31 [ERROR]: locator.click: Test timeout of 60000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Continue' })[22m
+[2m    - locator resolved to <input type="button" title="Continue" value="Continue" disabled="disabled" onclick="Billing.save()" class="button-1 new-address-next-step-button"/>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    55 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+2026-05-28 14:40:57 [INFO]: Clicked on Sign in
+2026-05-28 14:40:57 [INFO]: Entered value into Email
+2026-05-28 14:40:57 [INFO]: Entered value into Password
+2026-05-28 14:40:58 [INFO]: Clicked on LoginButton
+2026-05-28 14:40:58 [INFO]: Entered value into Search box
+2026-05-28 14:40:59 [INFO]: Clicked on Search button
+2026-05-28 14:41:00 [INFO]: Clicked on Add to cart button
+2026-05-28 14:41:01 [INFO]: Clicked on shoping cart
+2026-05-28 14:41:02 [INFO]: Clicked on Checkout button
+2026-05-28 14:41:03 [INFO]: Entered value into company name
+2026-05-28 14:41:03 [INFO]: Entered value into city
+2026-05-28 14:41:03 [INFO]: Entered value into Address1
+2026-05-28 14:41:03 [INFO]: Entered value into Address2
+2026-05-28 14:41:03 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:41:03 [INFO]: Entered value into Phone number
+2026-05-28 14:41:04 [INFO]: Clicked on Continue
+2026-05-28 14:41:56 [ERROR]: Failed to click on Continue
+2026-05-28 14:41:56 [ERROR]: locator.click: Test timeout of 60000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Continue' })[22m
+[2m    - locator resolved to <input type="button" title="Continue" value="Continue" disabled="disabled" onclick="Billing.save()" class="button-1 new-address-next-step-button"/>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not enabled[22m
+[2m  98 × retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2026-05-28 14:44:48 [INFO]: Clicked on Sign in
+2026-05-28 14:44:48 [INFO]: Entered value into Email
+2026-05-28 14:44:48 [INFO]: Entered value into Password
+2026-05-28 14:44:49 [INFO]: Clicked on LoginButton
+2026-05-28 14:44:49 [INFO]: Entered value into Search box
+2026-05-28 14:44:50 [INFO]: Clicked on Search button
+2026-05-28 14:44:51 [INFO]: Clicked on Add to cart button
+2026-05-28 14:44:51 [INFO]: Clicked on shoping cart
+2026-05-28 14:44:53 [INFO]: Clicked on Checkout button
+2026-05-28 14:44:54 [INFO]: Entered value into company name
+2026-05-28 14:44:54 [INFO]: Entered value into city
+2026-05-28 14:44:54 [INFO]: Entered value into Address1
+2026-05-28 14:44:54 [INFO]: Entered value into Address2
+2026-05-28 14:44:54 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:44:54 [INFO]: Entered value into Phone number
+2026-05-28 14:44:54 [INFO]: Clicked on Continue
+2026-05-28 14:46:19 [INFO]: Clicked on Sign in
+2026-05-28 14:46:19 [INFO]: Entered value into Email
+2026-05-28 14:46:19 [INFO]: Entered value into Password
+2026-05-28 14:46:20 [INFO]: Clicked on LoginButton
+2026-05-28 14:46:21 [INFO]: Entered value into Search box
+2026-05-28 14:46:22 [INFO]: Clicked on Search button
+2026-05-28 14:46:22 [INFO]: Clicked on Add to cart button
+2026-05-28 14:46:23 [INFO]: Clicked on shoping cart
+2026-05-28 14:46:25 [INFO]: Clicked on Checkout button
+2026-05-28 14:46:25 [INFO]: Entered value into company name
+2026-05-28 14:46:26 [INFO]: Entered value into city
+2026-05-28 14:46:26 [INFO]: Entered value into Address1
+2026-05-28 14:46:26 [INFO]: Entered value into Address2
+2026-05-28 14:46:26 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:46:26 [INFO]: Entered value into Phone number
+2026-05-28 14:46:26 [INFO]: Clicked on Continue
+2026-05-28 14:46:28 [INFO]: Clicked on Continue
+2026-05-28 14:46:29 [INFO]: Clicked on COD
+2026-05-28 14:46:29 [INFO]: Clicked on Continue
+2026-05-28 14:46:29 [ERROR]: Failed to click on Pay
+2026-05-28 14:46:29 [ERROR]: locator.waitFor is not a function
+2026-05-28 14:48:46 [INFO]: Clicked on Sign in
+2026-05-28 14:48:46 [INFO]: Entered value into Email
+2026-05-28 14:48:46 [INFO]: Entered value into Password
+2026-05-28 14:48:48 [INFO]: Clicked on LoginButton
+2026-05-28 14:48:48 [INFO]: Entered value into Search box
+2026-05-28 14:48:49 [INFO]: Clicked on Search button
+2026-05-28 14:48:49 [INFO]: Clicked on Add to cart button
+2026-05-28 14:48:50 [INFO]: Clicked on shoping cart
+2026-05-28 14:48:52 [INFO]: Clicked on Checkout button
+2026-05-28 14:48:52 [INFO]: Entered value into company name
+2026-05-28 14:48:52 [INFO]: Entered value into city
+2026-05-28 14:48:53 [INFO]: Entered value into Address1
+2026-05-28 14:48:53 [INFO]: Entered value into Address2
+2026-05-28 14:48:53 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:48:53 [INFO]: Entered value into Phone number
+2026-05-28 14:48:53 [INFO]: Clicked on Continue
+2026-05-28 14:48:55 [INFO]: Clicked on Continue
+2026-05-28 14:48:55 [INFO]: Clicked on COD
+2026-05-28 14:48:55 [INFO]: Clicked on Continue
+2026-05-28 14:48:56 [INFO]: Clicked on Pay
+2026-05-28 14:48:56 [INFO]: Clicked on contiune
+2026-05-28 14:49:32 [ERROR]: Failed to click on info
+2026-05-28 14:49:32 [ERROR]: locator.click: Test ended.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Continue' })[22m
+[2m    - locator resolved to <input type="button" value="Continue" disabled="disabled" onclick="PaymentMethod.save()" class="button-1 payment-method-next-step-button"/>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not enabled[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m  67 × retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2026-05-28 14:49:57 [INFO]: Clicked on Sign in
+2026-05-28 14:49:58 [INFO]: Entered value into Email
+2026-05-28 14:49:58 [INFO]: Entered value into Password
+2026-05-28 14:49:59 [INFO]: Clicked on LoginButton
+2026-05-28 14:49:59 [INFO]: Entered value into Search box
+2026-05-28 14:50:00 [INFO]: Clicked on Search button
+2026-05-28 14:50:01 [INFO]: Clicked on Add to cart button
+2026-05-28 14:50:02 [INFO]: Clicked on shoping cart
+2026-05-28 14:50:03 [INFO]: Clicked on Checkout button
+2026-05-28 14:50:04 [INFO]: Entered value into company name
+2026-05-28 14:50:04 [INFO]: Entered value into city
+2026-05-28 14:50:04 [INFO]: Entered value into Address1
+2026-05-28 14:50:04 [INFO]: Entered value into Address2
+2026-05-28 14:50:04 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:50:05 [INFO]: Entered value into Phone number
+2026-05-28 14:50:05 [INFO]: Clicked on Continue
+2026-05-28 14:50:06 [INFO]: Clicked on Continue
+2026-05-28 14:50:07 [INFO]: Clicked on COD
+2026-05-28 14:50:07 [INFO]: Clicked on Continue
+2026-05-28 14:50:07 [INFO]: Clicked on Pay
+2026-05-28 14:50:08 [INFO]: Clicked on contiune
+2026-05-28 14:50:08 [INFO]: Clicked on info
+2026-05-28 14:50:09 [INFO]: Clicked on confirm Button
+2026-05-28 14:51:33 [ERROR]: Failed to click on Sign in
+2026-05-28 14:51:33 [ERROR]: expect is not defined
+2026-05-28 14:52:07 [ERROR]: Failed to click on Sign in
+2026-05-28 14:52:07 [ERROR]: expect is not defined
+2026-05-28 14:53:39 [ERROR]: Failed to click on Sign in
+2026-05-28 14:53:39 [ERROR]: expect is not defined
+2026-05-28 14:55:12 [INFO]: Clicked on Sign in
+2026-05-28 14:55:12 [INFO]: Entered value into Email
+2026-05-28 14:55:12 [INFO]: Entered value into Password
+2026-05-28 14:55:13 [INFO]: Clicked on LoginButton
+2026-05-28 14:55:13 [INFO]: Entered value into Search box
+2026-05-28 14:55:14 [INFO]: Clicked on Search button
+2026-05-28 14:55:15 [INFO]: Clicked on Add to cart button
+2026-05-28 14:55:16 [INFO]: Clicked on shoping cart
+2026-05-28 14:55:18 [INFO]: Clicked on Checkout button
+2026-05-28 14:55:18 [INFO]: Entered value into company name
+2026-05-28 14:55:19 [INFO]: Entered value into city
+2026-05-28 14:55:19 [INFO]: Entered value into Address1
+2026-05-28 14:55:19 [INFO]: Entered value into Address2
+2026-05-28 14:55:19 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:55:19 [INFO]: Entered value into Phone number
+2026-05-28 14:55:19 [INFO]: Clicked on Continue
+2026-05-28 14:55:21 [INFO]: Clicked on Continue
+2026-05-28 14:55:22 [INFO]: Clicked on COD
+2026-05-28 14:55:22 [INFO]: Clicked on Continue
+2026-05-28 14:55:22 [INFO]: Clicked on Pay
+2026-05-28 14:55:23 [INFO]: Clicked on contiune
+2026-05-28 14:55:23 [INFO]: Clicked on info
+2026-05-28 14:55:24 [INFO]: Clicked on confirm Button
+2026-05-28 14:57:15 [INFO]: Entered value into Search box
+2026-05-28 14:57:16 [INFO]: Clicked on Sign in
+2026-05-28 14:57:16 [INFO]: Entered value into Email
+2026-05-28 14:57:16 [INFO]: Entered value into Password
+2026-05-28 14:57:18 [INFO]: Clicked on Sign in
+2026-05-28 14:57:19 [INFO]: Clicked on REGISTERUSER
+2026-05-28 14:57:19 [INFO]: Clicked on Search button
+2026-05-28 14:57:19 [INFO]: Clicked on Add to cart button
+2026-05-28 14:57:19 [INFO]: Clicked on LoginButton
+2026-05-28 14:57:21 [INFO]: Entered value into Email
+2026-05-28 14:57:22 [INFO]: Entered value into firstname
+2026-05-28 14:57:22 [INFO]: Entered value into Password
+2026-05-28 14:57:23 [INFO]: Entered value into Lastname
+2026-05-28 14:57:24 [INFO]: Clicked on LoginButton
+2026-05-28 14:57:25 [INFO]: Entered value into Email
+2026-05-28 14:57:25 [INFO]: Entered value into Search box
+2026-05-28 14:57:27 [INFO]: Entered value into Password
+2026-05-28 14:57:27 [INFO]: Clicked on Search button
+2026-05-28 14:57:29 [INFO]: Entered value into Confirm password
+2026-05-28 14:57:29 [INFO]: Clicked on Add to cart button
+2026-05-28 14:57:30 [INFO]: Clicked on Register Button
+2026-05-28 14:57:33 [INFO]: Clicked on shoping cart
+2026-05-28 14:57:34 [INFO]: Clicked on Checkout button
+2026-05-28 14:57:35 [INFO]: Entered value into company name
+2026-05-28 14:57:35 [INFO]: Entered value into city
+2026-05-28 14:57:35 [INFO]: Entered value into Address1
+2026-05-28 14:57:35 [INFO]: Entered value into Address2
+2026-05-28 14:57:35 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:57:35 [INFO]: Entered value into Phone number
+2026-05-28 14:57:36 [INFO]: Clicked on Continue
+2026-05-28 14:57:38 [INFO]: Clicked on Continue
+2026-05-28 14:57:39 [INFO]: Clicked on COD
+2026-05-28 14:57:40 [INFO]: Clicked on Continue
+2026-05-28 14:57:40 [INFO]: Clicked on Pay
+2026-05-28 14:57:41 [INFO]: Clicked on contiune
+2026-05-28 14:57:41 [INFO]: Clicked on info
+2026-05-28 14:57:42 [INFO]: Clicked on confirm Button
+2026-05-28 14:58:06 [INFO]: Clicked on REGISTERUSER
+2026-05-28 14:58:09 [INFO]: Entered value into firstname
+2026-05-28 14:58:10 [INFO]: Entered value into Search box
+2026-05-28 14:58:10 [INFO]: Entered value into Lastname
+2026-05-28 14:58:11 [INFO]: Entered value into Email
+2026-05-28 14:58:12 [INFO]: Entered value into Password
+2026-05-28 14:58:12 [INFO]: Entered value into Confirm password
+2026-05-28 14:58:16 [INFO]: Clicked on Search button
+2026-05-28 14:58:16 [INFO]: Clicked on Register Button
+2026-05-28 14:58:19 [INFO]: Clicked on Add to cart button
+2026-05-28 14:58:20 [INFO]: Clicked on Sign in
+2026-05-28 14:58:21 [INFO]: Entered value into Email
+2026-05-28 14:58:21 [INFO]: Entered value into Password
+2026-05-28 14:58:24 [INFO]: Clicked on LoginButton
+2026-05-28 14:58:30 [INFO]: Clicked on Sign in
+2026-05-28 14:58:31 [INFO]: Entered value into Email
+2026-05-28 14:58:31 [INFO]: Entered value into Password
+2026-05-28 14:58:32 [INFO]: Clicked on LoginButton
+2026-05-28 14:58:33 [INFO]: Entered value into Search box
+2026-05-28 14:58:34 [INFO]: Clicked on Search button
+2026-05-28 14:58:35 [INFO]: Clicked on Add to cart button
+2026-05-28 14:58:37 [INFO]: Clicked on shoping cart
+2026-05-28 14:58:40 [INFO]: Clicked on Checkout button
+2026-05-28 14:58:41 [INFO]: Entered value into company name
+2026-05-28 14:58:41 [INFO]: Entered value into city
+2026-05-28 14:58:41 [INFO]: Entered value into Address1
+2026-05-28 14:58:41 [INFO]: Entered value into Address2
+2026-05-28 14:58:42 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:58:42 [INFO]: Entered value into Phone number
+2026-05-28 14:58:43 [INFO]: Clicked on Continue
+2026-05-28 14:58:44 [INFO]: Clicked on Continue
+2026-05-28 14:58:45 [INFO]: Clicked on COD
+2026-05-28 14:58:45 [INFO]: Clicked on Continue
+2026-05-28 14:58:47 [INFO]: Clicked on Pay
+2026-05-28 14:58:48 [INFO]: Clicked on contiune
+2026-05-28 14:58:49 [INFO]: Clicked on info
+2026-05-28 14:58:51 [INFO]: Clicked on confirm Button
+2026-05-28 14:58:55 [INFO]: Entered value into Search box
+2026-05-28 14:58:57 [INFO]: Clicked on REGISTERUSER
+2026-05-28 14:58:59 [INFO]: Entered value into firstname
+2026-05-28 14:58:59 [INFO]: Entered value into Lastname
+2026-05-28 14:59:00 [INFO]: Clicked on Search button
+2026-05-28 14:59:00 [INFO]: Entered value into Email
+2026-05-28 14:59:00 [INFO]: Entered value into Password
+2026-05-28 14:59:01 [INFO]: Entered value into Confirm password
+2026-05-28 14:59:02 [INFO]: Clicked on Add to cart button
+2026-05-28 14:59:02 [INFO]: Clicked on Sign in
+2026-05-28 14:59:03 [INFO]: Entered value into Email
+2026-05-28 14:59:03 [INFO]: Entered value into Password
+2026-05-28 14:59:03 [INFO]: Clicked on Register Button
+2026-05-28 14:59:04 [INFO]: Clicked on LoginButton
+2026-05-28 14:59:17 [INFO]: Clicked on Sign in
+2026-05-28 14:59:17 [INFO]: Entered value into Email
+2026-05-28 14:59:17 [INFO]: Entered value into Password
+2026-05-28 14:59:19 [INFO]: Clicked on LoginButton
+2026-05-28 14:59:19 [INFO]: Entered value into Search box
+2026-05-28 14:59:21 [INFO]: Clicked on Search button
+2026-05-28 14:59:22 [INFO]: Clicked on Add to cart button
+2026-05-28 14:59:23 [INFO]: Clicked on shoping cart
+2026-05-28 14:59:27 [INFO]: Clicked on Checkout button
+2026-05-28 14:59:29 [INFO]: Entered value into company name
+2026-05-28 14:59:29 [INFO]: Entered value into city
+2026-05-28 14:59:29 [INFO]: Entered value into Address1
+2026-05-28 14:59:29 [INFO]: Entered value into Address2
+2026-05-28 14:59:30 [INFO]: Entered value into Zip/Postal code
+2026-05-28 14:59:30 [INFO]: Entered value into Phone number
+2026-05-28 14:59:30 [INFO]: Clicked on Continue
+2026-05-28 14:59:32 [INFO]: Clicked on Continue
+2026-05-28 14:59:33 [INFO]: Clicked on COD
+2026-05-28 14:59:34 [INFO]: Clicked on Continue
+2026-05-28 14:59:35 [INFO]: Clicked on Pay
+2026-05-28 14:59:36 [INFO]: Clicked on contiune
+2026-05-28 14:59:37 [INFO]: Clicked on info
+2026-05-28 14:59:38 [INFO]: Clicked on confirm Button
+2026-05-28 15:03:47 [INFO]: Clicked on Sign in
+2026-05-28 15:03:48 [INFO]: Clicked on Sign in
+2026-05-28 15:03:48 [INFO]: Entered value into Email
+2026-05-28 15:03:48 [INFO]: Clicked on REGISTERUSER
+2026-05-28 15:03:48 [INFO]: Entered value into Search box
+2026-05-28 15:03:49 [INFO]: Entered value into Email
+2026-05-28 15:03:49 [INFO]: Entered value into Password
+2026-05-28 15:03:49 [INFO]: Clicked on Search button
+2026-05-28 15:03:49 [INFO]: Entered value into Password
+2026-05-28 15:03:50 [INFO]: Clicked on Add to cart button
+2026-05-28 15:03:50 [INFO]: Entered value into firstname
+2026-05-28 15:03:52 [INFO]: Entered value into Lastname
+2026-05-28 15:03:52 [INFO]: Entered value into Email
+2026-05-28 15:03:52 [INFO]: Clicked on LoginButton
+2026-05-28 15:03:52 [INFO]: Entered value into Search box
+2026-05-28 15:03:54 [INFO]: Clicked on LoginButton
+2026-05-28 15:03:54 [INFO]: Clicked on Search button
+2026-05-28 15:03:54 [INFO]: Entered value into Password
+2026-05-28 15:03:54 [INFO]: Clicked on Add to cart button
+2026-05-28 15:03:55 [INFO]: Entered value into Confirm password
+2026-05-28 15:03:56 [INFO]: Clicked on shoping cart
+2026-05-28 15:03:58 [INFO]: Clicked on Checkout button
+2026-05-28 15:03:58 [INFO]: Clicked on Register Button
+2026-05-28 15:03:59 [INFO]: Entered value into company name
+2026-05-28 15:03:59 [INFO]: Entered value into city
+2026-05-28 15:04:00 [INFO]: Entered value into Address1
+2026-05-28 15:04:00 [INFO]: Entered value into Address2
+2026-05-28 15:04:00 [INFO]: Entered value into Zip/Postal code
+2026-05-28 15:04:00 [INFO]: Entered value into Phone number
+2026-05-28 15:04:01 [INFO]: Clicked on Continue
+2026-05-28 15:04:02 [INFO]: Clicked on Continue
+2026-05-28 15:04:03 [INFO]: Clicked on COD
+2026-05-28 15:04:04 [INFO]: Clicked on Continue
+2026-05-28 15:04:04 [INFO]: Clicked on Pay
+2026-05-28 15:04:05 [INFO]: Clicked on contiune
+2026-05-28 15:04:05 [INFO]: Clicked on info
+2026-05-28 15:04:06 [INFO]: Clicked on confirm Button
