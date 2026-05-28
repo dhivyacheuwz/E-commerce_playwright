@@ -508,3 +508,98 @@ Call log:
 2026-05-28 15:04:05 [INFO]: Clicked on contiune
 2026-05-28 15:04:05 [INFO]: Clicked on info
 2026-05-28 15:04:06 [INFO]: Clicked on confirm Button
+2026-05-28 15:04:46 [INFO]: Entered value into Search box
+2026-05-28 15:04:49 [INFO]: Clicked on Sign in
+2026-05-28 15:04:49 [INFO]: Clicked on Search button
+2026-05-28 15:04:49 [INFO]: Clicked on REGISTERUSER
+2026-05-28 15:04:50 [INFO]: Clicked on Sign in
+2026-05-28 15:04:50 [INFO]: Entered value into Email
+2026-05-28 15:04:51 [INFO]: Entered value into Email
+2026-05-28 15:04:51 [INFO]: Entered value into Password
+2026-05-28 15:04:51 [INFO]: Entered value into firstname
+2026-05-28 15:04:52 [INFO]: Entered value into Lastname
+2026-05-28 15:04:52 [INFO]: Entered value into Password
+2026-05-28 15:04:52 [INFO]: Clicked on Add to cart button
+2026-05-28 15:04:52 [INFO]: Entered value into Email
+2026-05-28 15:04:53 [INFO]: Entered value into Password
+2026-05-28 15:04:53 [INFO]: Entered value into Confirm password
+2026-05-28 15:04:54 [INFO]: Clicked on LoginButton
+2026-05-28 15:04:55 [INFO]: Clicked on Register Button
+2026-05-28 15:04:55 [INFO]: Clicked on LoginButton
+2026-05-28 15:04:56 [INFO]: Entered value into Search box
+2026-05-28 15:04:58 [INFO]: Clicked on Search button
+2026-05-28 15:04:59 [INFO]: Clicked on Add to cart button
+2026-05-28 15:05:00 [INFO]: Clicked on shoping cart
+2026-05-28 15:05:03 [INFO]: Clicked on Checkout button
+2026-05-28 15:05:04 [INFO]: Entered value into company name
+2026-05-28 15:05:04 [INFO]: Entered value into city
+2026-05-28 15:05:05 [INFO]: Entered value into Address1
+2026-05-28 15:05:05 [INFO]: Entered value into Address2
+2026-05-28 15:05:05 [INFO]: Entered value into Zip/Postal code
+2026-05-28 15:05:05 [INFO]: Entered value into Phone number
+2026-05-28 15:05:06 [INFO]: Clicked on Continue
+2026-05-28 15:05:07 [INFO]: Clicked on Continue
+2026-05-28 15:05:08 [INFO]: Clicked on COD
+2026-05-28 15:05:09 [INFO]: Clicked on Continue
+2026-05-28 15:05:10 [INFO]: Clicked on Pay
+2026-05-28 15:05:10 [INFO]: Clicked on contiune
+2026-05-28 15:05:11 [INFO]: Clicked on info
+2026-05-28 15:05:12 [INFO]: Clicked on confirm Button
+2026-05-28 15:05:27 [INFO]: Clicked on REGISTERUSER
+2026-05-28 15:05:29 [INFO]: Entered value into firstname
+2026-05-28 15:05:30 [INFO]: Entered value into Lastname
+2026-05-28 15:05:30 [INFO]: Entered value into Search box
+2026-05-28 15:05:31 [INFO]: Entered value into Email
+2026-05-28 15:05:32 [INFO]: Entered value into Password
+2026-05-28 15:05:33 [INFO]: Clicked on Sign in
+2026-05-28 15:05:33 [INFO]: Entered value into Confirm password
+2026-05-28 15:05:36 [INFO]: Entered value into Email
+2026-05-28 15:05:37 [INFO]: Entered value into Password
+2026-05-28 15:05:38 [INFO]: Clicked on Register Button
+2026-05-28 15:05:39 [INFO]: Clicked on Search button
+2026-05-28 15:05:40 [INFO]: Clicked on Sign in
+2026-05-28 15:05:40 [INFO]: Entered value into Email
+2026-05-28 15:05:40 [INFO]: Clicked on LoginButton
+2026-05-28 15:05:41 [INFO]: Entered value into Password
+2026-05-28 15:05:41 [INFO]: Clicked on Add to cart button
+2026-05-28 15:05:43 [INFO]: Clicked on LoginButton
+2026-05-28 15:05:43 [INFO]: Entered value into Search box
+2026-05-28 15:05:46 [INFO]: Clicked on Search button
+2026-05-28 15:05:47 [INFO]: Clicked on Add to cart button
+2026-05-28 15:05:48 [INFO]: Clicked on shoping cart
+2026-05-28 15:18:13 [INFO]: Entered value into Search box
+2026-05-28 15:18:15 [ERROR]: Failed to click on Search button
+2026-05-28 15:18:15 [ERROR]: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Call log:
+[2m  - attempting scroll into view action[22m
+[2m    - waiting for element to be stable[22m
+
+2026-05-28 15:18:17 [ERROR]: Failed to click on Sign in
+2026-05-28 15:18:17 [ERROR]: locator.click: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\Dell-New\AppData\Local\ms-playwright\firefox-1522\firefox\firefox.exe -no-remote -headless -profile C:\Users\Dell-New\AppData\Local\Temp\playwright_firefoxdev_profile-T28ilX -juggler-pipe -silent
+<launched> pid=5480
+[pid=5480][err] *** You are running in headless mode.
+[pid=5480][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement
+[pid=5480][out] 
+[pid=5480][out] Juggler listening to the pipe
+[pid=5480][out] Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=2.43395) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[pid=5480][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=5480][out] console.error: "Error fetching remote settings base url from CDN. Falling back to https://firefox-settings-attachments.cdn.mozilla.net/" (new SyntaxError("XMLHttpRequest.open: '/' is not a valid URL.", (void 0), 126))
+[pid=5480][out] console.error: services.settings: 
+[pid=5480][out]   Message: EmptyDatabaseError: "main/nimbus-desktop-experiments" has not been synced yet
+[pid=5480][out]   Stack:
+[pid=5480][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+[pid=5480][out] list@resource://services-settings/Database.sys.mjs:96:13
+[pid=5480][out] 
+[pid=5480][out] console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: moz-src:///browser/components/downloads/DownloadsTaskbar.sys.mjs :: #windowsAttachIndicator :: line 183"  data: no]
+[pid=5480][out] console.warn: services.settings: #fetchAttachment: Forcing fallbackToDump to false due to Utils.LOAD_DUMPS being false
+[pid=5480][out] console.error: (new NotFoundError("Could not find fa0fc42c-d91d-fca7-34eb-806ff46062dc in cache or dump", "resource://services-settings/Attachments.sys.mjs", 48))
+[pid=5480][out] console.warn: "Unable to find the attachment for" "fa0fc42c-d91d-fca7-34eb-806ff46062dc"
+[pid=5480][err] JavaScript warning: https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[pid=5480][err] JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+[pid=5480][err] JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+Call log:
+[2m  - waiting for getByText('Log in')[22m
+
